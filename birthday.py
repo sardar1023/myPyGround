@@ -7,7 +7,7 @@ while True:
     print('Enter a name: (blank to quit)')
     name = input()
     if name =='':
-        break;
+        break
 
     if name in birthdays:
         print(birthdays[name] + ' is the birthday of ' + name)
