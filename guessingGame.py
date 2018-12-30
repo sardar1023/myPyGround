@@ -8,7 +8,7 @@ print('Hello! What is your name?')
 myName = input()
 
 number = random.randint(1,20)
-print('Well, ' + myName + ', I am thinking a number between and 20.')
+print('Well, ' + myName + ', I am thinking a number between 1 and 20.')
 
 while guessesTaken < 6:
     print('take a guess.')
